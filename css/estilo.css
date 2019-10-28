@@ -87,6 +87,7 @@ h4{
     display: flex;
     justify-content: space-between;
 }
+
 .iconos-nosotrosB{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
