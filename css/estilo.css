@@ -162,4 +162,55 @@ h4{
         
         
     }
+@media only screen and (max-width: 1023px){
+    .navegacion a:last-of-type{
+        margin:0;
+    }
+    .contenedor{
+        width: 95%;
+        max-width: 120rem; /** = 1200px; **/
+        margin: 0 auto;
+    }
+    .iconos-nosotros{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+    }
+    .navegacion a{
+        max-width: 30%;
+    }
+    .icono{
+        flex-basis:100%;
+        text-align: center;
+    }
+    .site-footer nav{
+        display: none;
+    }
+    .contenido-header{
+        display: flex;
+        flex-direction: row !important;
+        height: 100%;
+    }
+    .contenido-header h1{
+        display: none;
+    }
+    .barra{
+        display: flex;
+        flex-direction: column !important;
+        flex-wrap: wrap;
+        padding-top: 2rem;
+        align-items: center;
+    }
+    .contenido-modulo{
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+    }
+    
+.iconos-nosotrosB{
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+}
 
+}
